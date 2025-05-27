@@ -121,16 +121,13 @@ footer{
 .projects-min-mix{
     background-color: rgba(250, 221, 188, 0.493);
     height: 80px;
-    width: 50%;
+    width: 60%;
     border-radius: 5px;
     
 }
 .projects-min-mix-img{
-    height: 60px;
-    width: 115%;
+    height: 75px;
+    width: 95%;
     border: none;
     border-radius: 5px;
-}
-.projects-min-mix-text{
-    width: 50%;
 }
