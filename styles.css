@@ -101,14 +101,14 @@ footer{
 }
 .my-projects{
     background-color: rgb(236, 235, 234);
-    height: 1000px;
+    height: 800px;
     width: 120%;
 }
 .projects-mini{
     position: fixed;
     background-color: white;
     height: 100px;
-    width: 50%;
+    width: 80%;
 }
 .projects-min-mix{
     background-color: black;
