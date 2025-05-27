@@ -105,6 +105,12 @@ footer{
     width: 120%;
 }
 .projects-mini{
+    background-color: white;
     height: 100px;
     width: 100%;
+}
+.projects-min-mix{
+    background-color: black;
+    height: 80px;
+    width: 50%;
 }
