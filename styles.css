@@ -99,3 +99,8 @@ footer{
     border: none;
     color: blue;
 }
+.my-projects{
+    background-color: rgb(236, 235, 234);
+    height: 500px;
+    width: 95%;
+}
