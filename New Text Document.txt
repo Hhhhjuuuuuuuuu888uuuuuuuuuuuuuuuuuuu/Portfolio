@@ -36,3 +36,17 @@ My name is Collins Mailula, and I’m currently studying Environmental Science a
 My skillset includes HTML, CSS, JavaScript, and an understanding of environmental concepts. I’m constantly looking for ways to grow, improve, and explore how science and technology can work together to create positive change.
 
 Thanks for stopping by — I hope you enjoy exploring my work!
+
+
+Contact Me
+Thanks for visiting my portfolio! If you’d like to get in touch — whether it's to ask a question, collaborate on a project, or just say hello — feel free to reach out.
+
+You can contact me through the following channels:
+
+Email: [your-email@example.com]
+
+LinkedIn: [your LinkedIn link, if you have one]
+
+YouTube: [link to your “Solving with Collins” channel if you'd like to share it]
+
+I'm always open to connecting with like-minded individuals, fellow students, or anyone interested in environmental science, technology, or creative projects.
