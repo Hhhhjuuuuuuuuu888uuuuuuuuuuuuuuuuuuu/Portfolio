@@ -116,10 +116,18 @@ footer{
     background-color: white;
     height: 100px;
     width: 80%;
+    border: 2px solid black;
 }
 .projects-min-mix{
-    background-color: black;
+    background-color: rgba(250, 221, 188, 0.493);
     height: 80px;
     width: 40%;
+    border-radius: 5px;
     
+}
+.projects-min-mix-img{
+    height: 80px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
 }
