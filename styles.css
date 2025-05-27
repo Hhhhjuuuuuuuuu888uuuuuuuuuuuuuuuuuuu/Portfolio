@@ -46,6 +46,9 @@ nav{
     align-items: center;
 }
 img{
+    display: flex;
+    align-items: center;
+    justify-self: center;
     height: 150px;
     width: 150px;
     border-radius: 50%;
