@@ -95,6 +95,7 @@ footer{
     background-color: rgb(220, 224, 228);
 }
 .url-links{
+    text-decoration: dotted;
     border: none;
     color: blue;
 }
