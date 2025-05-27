@@ -28,3 +28,11 @@ This portfolio is a space where I share some of the self-initiated projects I've
 -------------------------------
 | © 2025 Collins | YouTube | Email |
 -------------------------------
+
+
+About Me
+My name is Collins Mailula, and I’m currently studying Environmental Science at Tshwane University of Technology. I enjoy building self-driven projects that allow me to apply what I learn in creative and practical ways. This portfolio is a collection of some of those projects — ideas I’ve brought to life through curiosity, dedication, and a love for learning.
+
+My skillset includes HTML, CSS, JavaScript, and an understanding of environmental concepts. I’m constantly looking for ways to grow, improve, and explore how science and technology can work together to create positive change.
+
+Thanks for stopping by — I hope you enjoy exploring my work!
