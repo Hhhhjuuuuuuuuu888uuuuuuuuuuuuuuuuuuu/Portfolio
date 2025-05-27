@@ -105,6 +105,7 @@ footer{
     width: 120%;
     align-items: center;
     justify-content: center;
+    padding-left: 5px;
 }
 .projects-mini{
     position: fixed;
