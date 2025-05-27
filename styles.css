@@ -101,10 +101,11 @@ footer{
 }
 .my-projects{
     background-color: rgb(236, 235, 234);
-    height: 500px;
+    height: 1000px;
     width: 120%;
 }
 .projects-mini{
+    position: fixed;
     background-color: white;
     height: 100px;
     width: 100%;
