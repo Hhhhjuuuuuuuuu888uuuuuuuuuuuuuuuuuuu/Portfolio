@@ -49,7 +49,7 @@ img{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px dotted chocolate;
+    border: 2px double chocolate;
     margin: 5px;
 }
 p{
@@ -77,4 +77,10 @@ footer{
 }
 .footer-url{
     border: none;
+}
+.img-frame{
+    width: 120%;
+    padding: 5px;
+    border: 2px dotted rgb(179, 209, 134);
+    background-color: rgb(220, 224, 228);
 }
