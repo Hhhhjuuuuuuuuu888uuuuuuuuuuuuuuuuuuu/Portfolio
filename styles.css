@@ -94,3 +94,6 @@ footer{
     border: 2px solid rgb(179, 209, 134);
     background-color: rgb(220, 224, 228);
 }
+.url-links{
+    border: none;
+}
