@@ -1,3 +1,11 @@
+*{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+}
 body{
     justify-items: center;
     background-color: aqua;
@@ -61,7 +69,6 @@ p{
     text-align: center;
 }
 div{
-    background-color: yellowgreen;
     margin: 2px;
     width: 80%;
     border-radius: 5px;
@@ -76,7 +83,7 @@ footer{
     width: 95%;
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(194, 194, 188);
+    background-color: rgb(217, 219, 219);
 }
 .footer-url{
     border: none;
@@ -84,6 +91,6 @@ footer{
 .img-frame{
     width: 120%;
     padding: 5px;
-    border: 2px dotted rgb(179, 209, 134);
+    border: 2px solid rgb(179, 209, 134);
     background-color: rgb(220, 224, 228);
 }
