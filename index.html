@@ -6,7 +6,7 @@
     <title>Collins - Web Developer Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* Global Styles */
+       
         :root {
             --primary: #4a6cf7;
             --secondary: #6f42c1;
@@ -79,7 +79,7 @@
             color: var(--primary);
         }
         
-        /* Header Styles */
+       
         header {
             position: fixed;
             top: 0;
@@ -131,7 +131,7 @@
             cursor: pointer;
         }
         
-        /* Hero Section */
+        
         .hero {
             padding: 150px 0 100px;
             background: linear-gradient(135deg, #f5f7ff 0%, #e3e6ff 100%);
@@ -166,7 +166,7 @@
             color: white;
         }
         
-        /* About Section */
+        
         .about-content {
             display: flex;
             align-items: center;
@@ -200,7 +200,7 @@
             margin-bottom: 15px;
         }
         
-        /* Skills Section */
+        
         .skills {
             background: var(--gray);
         }
@@ -236,7 +236,7 @@
             font-size: 1.5rem;
         }
         
-        /* Projects Section */
+        
         .projects-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -306,7 +306,7 @@
             justify-content: space-between;
         }
         
-        /* Contact Section */
+        
         .contact {
             background: var(--gray);
         }
@@ -371,7 +371,7 @@
             resize: vertical;
         }
         
-        /* Footer */
+        
         footer {
             background: var(--dark);
             color: white;
@@ -412,7 +412,7 @@
             border-top: 1px solid rgba(255,255,255,0.1);
         }
         
-        /* Responsive Design */
+        
         @media (max-width: 992px) {
             .about-content {
                 flex-direction: column;
@@ -461,7 +461,7 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
+
     <header>
         <div class="container">
             <nav>
@@ -480,7 +480,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
@@ -494,7 +493,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section class="section" id="about">
         <div class="container">
             <h2 class="section-title">About <span>Me</span></h2>
@@ -513,7 +511,7 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+    
     <section class="section skills" id="skills">
         <div class="container">
             <h2 class="section-title">My <span>Skills</span></h2>
@@ -550,7 +548,7 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    
     <section class="section" id="projects">
         <div class="container">
             <h2 class="section-title">My <span>Projects</span></h2>
@@ -615,7 +613,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section class="section contact" id="contact">
         <div class="container">
             <h2 class="section-title">Contact <span>Me</span></h2>
@@ -668,7 +665,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -690,7 +687,7 @@
     <script defer src="/_vercel/insights/script.js"></script>
 
     <script>
-        // Menu Toggle
+        
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
         
@@ -698,14 +695,14 @@
             navLinks.classList.toggle('active');
         });
         
-        // Close mobile menu when clicking on a link
+        
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
             });
         });
         
-        // Smooth scrolling for navigation links
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -732,28 +729,28 @@
             
         }
         
-        // Simple React-like component for skills animation
+      
         function animateSkills() {
             const skillItems = document.querySelectorAll('.skill-item');
             
             skillItems.forEach((item, index) => {
-                // Add delay for staggered animation
+                
                 item.style.transitionDelay = `${index * 0.1}s`;
                 item.style.opacity = '1';
                 item.style.transform = 'translateY(0)';
             });
         }
         
-        // Initialize animations when page loads
+        
         window.addEventListener('DOMContentLoaded', () => {
-            // Initialize skill items with hidden state
+            
             document.querySelectorAll('.skill-item').forEach(item => {
                 item.style.opacity = '0';
                 item.style.transform = 'translateY(20px)';
                 item.style.transition = 'all 0.5s ease';
             });
             
-            // Animate skills after a short delay
+            
             setTimeout(animateSkills, 500);
         });
     </script>
