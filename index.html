@@ -566,7 +566,7 @@
                             <span class="project-tag">HTML</span>
                             <span class="project-tag">CSS</span>
                             <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
                         </div>
                         <div class="project-links">
                             <a href="https://st-react-five.vercel.app/" class="btn">Live Demo</a>
@@ -603,7 +603,7 @@
                             <span class="project-tag">HTML</span>
                             <span class="project-tag">CSS</span>
                             <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
                         </div>
                         <div class="project-links">
                             <a href="https://chats-jet.vercel.app/" class="btn">Live Demo</a>
@@ -643,16 +643,15 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm" action="https://formsubmit.co/c979cffa3f60cd909235a13c8f804587" method="POST">
-
-                        <input type="hidden" name="_next" value="https://form-2zti.vercel.app/">
-                        <input type="hidden" name="_captcha" value="false">
+                    <form id="contactForm" action="https://formsubmit.co/collinsmaropeng2@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New portfolio message!">
                         <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="Order" id="orderDetails">
-
+                        <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+                        <input type="hidden" name="_captcha" value="false">
+                        
                         <div class="form-group">
                             <label for="name">Your Name</label>
-                            <input type="text" id="name" name="Name" placeholder="Enter Your Name" class="form-control" required>
+                            <input type="text" id="name" name="name" placeholder="Enter Your Name" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Your Email</label>
@@ -660,9 +659,9 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Your Feedback</label>
-                            <textarea id="message" name="Feedback" placeholder="Enter Your Message" class="form-control" required></textarea>
+                            <textarea id="message" name="message" placeholder="Enter Your Feedback" class="form-control" required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button onclick="submit()" type="submit" class="btn">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -685,7 +684,11 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
+    <script>
+     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
     <script>
         // Menu Toggle
         const menuToggle = document.querySelector('.menu-toggle');
@@ -720,26 +723,14 @@
             });
         });
         
-        // Form submission
-        const contactForm = document.getElementById('contactForm');
-        
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+        function submit(){
+
+            let contactForm = document.getElementById('contactForm');
             
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
+             // Reset form
+            contactForm.value = '';
             
-            // In a real application, you would send this data to a server
-            console.log('Form submitted:', { name, email, message });
-            
-            // Show success message
-            alert('Thank you for your message! I will get back to you soon.');
-            
-            // Reset form
-            contactForm.reset();
-        });
+        }
         
         // Simple React-like component for skills animation
         function animateSkills() {
